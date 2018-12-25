@@ -49,7 +49,7 @@ public class MathCalculator extends CordovaPlugin {
                 callback.success("" + (p1 + p2));
 
             } catch (Exception error) {
-                callback.error("Somethig went wrong " + error)
+                callback.error("Somethig went wrong " + error);
             }
 
         } else {
@@ -68,7 +68,7 @@ public class MathCalculator extends CordovaPlugin {
                 callback.success("" + (p1 - p2));
 
             } catch (Exception error) {
-                callback.error("Somethig went wrong " + error)
+                callback.error("Somethig went wrong " + error);
             }
 
         } else {
